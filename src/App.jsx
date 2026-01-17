@@ -134,13 +134,6 @@ export default function App() { return ( <div className="min-h-screen bg-gradien
         <li>Microsoft Certified: Azure Administrator Associate (AZ-104)</li>
       </ul>
     </div>
-    <div>
-      <h2 className="text-3xl font-bold mb-6 flex items-center gap-2"><Cloud /> Awards</h2>
-      <ul className="space-y-3 text-slate-300">
-        <li>Rising Star of the Year – 2025</li>
-        <li>Successful Cloud Migration Award – 2025</li>
-      </ul>
-    </div>
   </section>
  
   {/* FOOTER */}
