@@ -31,7 +31,7 @@ export default function App() { return ( <div className="min-h-screen bg-gradien
   <a href="mailto:rishabhk.9835@gmail.com" className="px-6 py-3 bg-cyan-400 text-black rounded-xl flex items-center gap-2 hover:scale-105 transition">
     <Mail size={18} /> Email: rishabhk.9835@gmail.com
   </a>
-  <a href="tel:+911234567890" className="px-6 py-3 bg-cyan-400 text-black rounded-xl flex items-center gap-2 hover:scale-105 transition">
+  <a href="tel:+918340637031" className="px-6 py-3 bg-cyan-400 text-black rounded-xl flex items-center gap-2 hover:scale-105 transition">
     <Phone size={18} /> Mobile: +91 8340637031
   </a>
   <a href="https://linkedin.com/in/rishabh-kumar7866" target="_blank" className="px-6 py-3 border border-cyan-400 rounded-xl flex items-center gap-2 hover:bg-cyan-400/10 transition">
