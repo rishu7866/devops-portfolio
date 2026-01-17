@@ -1,4 +1,4 @@
-import { motion } from "framer-motion"; import { Mail, Linkedin, Award, Cloud, GitBranch, Server } from "lucide-react"; import profile from "./assets/profile.jpg";
+import { motion } from "framer-motion"; import { Phone,Mail, Linkedin, Award, Cloud, GitBranch, Server } from "lucide-react"; import profile from "./assets/profile.jpg";
  
 export default function App() { return ( <div className="min-h-screen bg-gradient-to-br from-black via-slate-900 to-slate-800 text-white">
  
@@ -27,14 +27,17 @@ export default function App() { return ( <div className="min-h-screen bg-gradien
           Expert in Kubernetes, Terraform, CI/CD automation, and system observability.
         </p>
  
-        <div className="mt-8 flex gap-4">
-          <a href="mailto:rishabhk.9835@gmail.com" className="px-6 py-3 bg-cyan-400 text-black rounded-xl flex items-center gap-2 hover:scale-105 transition">
-            <Mail size={18} /> Contact
-          </a>
-          <a href="https://linkedin.com/in/rishabh-kumar7866" target="_blank" className="px-6 py-3 border border-cyan-400 rounded-xl flex items-center gap-2 hover:bg-cyan-400/10 transition">
-            <Linkedin size={18} /> LinkedIn
-          </a>
-        </div>
+        <div className="mt-8 flex flex-wrap gap-4">
+  <a href="mailto:rishabhk.9835@gmail.com" className="px-6 py-3 bg-cyan-400 text-black rounded-xl flex items-center gap-2 hover:scale-105 transition">
+    <Mail size={18} /> Email: rishabhk.9835@gmail.com
+  </a>
+  <a href="tel:+911234567890" className="px-6 py-3 bg-cyan-400 text-black rounded-xl flex items-center gap-2 hover:scale-105 transition">
+    <Phone size={18} /> Mobile: +91 8340637031
+  </a>
+  <a href="https://linkedin.com/in/rishabh-kumar7866" target="_blank" className="px-6 py-3 border border-cyan-400 rounded-xl flex items-center gap-2 hover:bg-cyan-400/10 transition">
+    <Linkedin size={18} /> LinkedIn
+  </a>
+</div>
       </motion.div>
     </div>
   </section>
