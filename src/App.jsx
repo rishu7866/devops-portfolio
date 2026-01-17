@@ -1,5 +1,3 @@
-// Netlify-ready Animated DevOps Portfolio // Place your photo in: src/assets/profile.jpg
- 
 import { motion } from "framer-motion"; import { Mail, Linkedin, Award, Cloud, GitBranch, Server } from "lucide-react"; import profile from "./assets/profile.jpg";
  
 export default function App() { return ( <div className="min-h-screen bg-gradient-to-br from-black via-slate-900 to-slate-800 text-white">
